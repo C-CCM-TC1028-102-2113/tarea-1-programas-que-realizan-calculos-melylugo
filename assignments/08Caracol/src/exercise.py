@@ -3,8 +3,8 @@ def main():
     
     # Elia Melissa Lugo Vences
     # A01660980
-
-    print ("Programa que calcula la distancia recorrida por un caracol")
+    # Programa que calcula la distancia recorrida por un caracol"
+    
     print ("Dame los minutos: ")
     minutos=float(input())
 
