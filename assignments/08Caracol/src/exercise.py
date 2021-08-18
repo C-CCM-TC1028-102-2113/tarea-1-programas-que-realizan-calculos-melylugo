@@ -5,15 +5,12 @@ def main():
     # A01660980
     # Programa que calcula la distancia recorrida por un caracol"
     
-    print ("Dame los minutos: ")
-    minutos=float(input())
-    
-    cmmin=5.7*(1/10)*(60/1)
-    distancia=minutos*cmmin
+    minutos=float(input("Dame los minutos: "))
 
-    print ("Centímetros recorridos: ")
-    print (distancia)
-    pass
+    unidades=5.7*(1/10)*(60/1)
+    distancia=minutos*unidades
+
+    print ("Centímetros recorridos: ", distancia)
 
 if __name__ == '__main__':
     main()
