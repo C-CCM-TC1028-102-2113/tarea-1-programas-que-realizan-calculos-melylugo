@@ -7,8 +7,9 @@ def main():
     
     print ("Dame los minutos: ")
     minutos=float(input())
-
-    distancia=minutos*34.2
+    
+    cmmin=5.7*(1/10)*(60/1)
+    distancia=minutos*cmmin
 
     print ("Centímetros recorridos: ", distancia)
     pass
