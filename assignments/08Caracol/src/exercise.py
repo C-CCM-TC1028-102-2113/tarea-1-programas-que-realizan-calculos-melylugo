@@ -11,7 +11,8 @@ def main():
     cmmin=5.7*(1/10)*(60/1)
     distancia=minutos*cmmin
 
-    print ("Centímetros recorridos: ", distancia)
+    print ("Centímetros recorridos: ")
+    print (distancia)
     pass
 
 if __name__ == '__main__':
