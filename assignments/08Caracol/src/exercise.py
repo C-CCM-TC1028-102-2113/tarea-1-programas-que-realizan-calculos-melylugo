@@ -8,11 +8,9 @@ print ("Programa que calcula la distancia recorrida por un caracol")
 print ("Dame los minutos: ")
 minutos=float(input())
 
-cm=34.2
-distancia=minutos*cm
+distancia=minutos*34.2
 
 print ("Centímetros recorridos: ", distancia)
-
 pass
 
 if __name__ == '__main__':
