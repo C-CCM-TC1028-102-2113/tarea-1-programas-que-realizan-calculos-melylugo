@@ -9,8 +9,8 @@ def main():
 
     unidades=5.7*(1/10)*(60/1)
     distancia=minutos*unidades
-
-    print ("Centímetros recorridos: ", distancia)
+    distancia=round(distancia,1)
+    print ("Centímentros recorridos: ", distancia)
 
 if __name__ == '__main__':
     main()
