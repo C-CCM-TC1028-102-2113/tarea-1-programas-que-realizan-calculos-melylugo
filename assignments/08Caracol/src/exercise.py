@@ -3,7 +3,7 @@ def main():
     minn=float(input("Dame los minutos: "))
     x=(5.7*6)*minn
     decimales=round(x,1)
-    print ("Centímentros recorridos: ", x)
+    print ("Centímentros recorridos: ", decimales)
     
 if __name__ == '__main__':
     main()
