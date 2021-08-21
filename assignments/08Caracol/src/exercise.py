@@ -5,7 +5,7 @@ def main():
     distancia=(5.7*6)*minutos
     distancia=round(distancia,1)
     
-    print ("Centímentros recorridos:", distancia)
+    print ("Centímentros recorridos:",distancia)
     pass
 
 if __name__ == '__main__':
