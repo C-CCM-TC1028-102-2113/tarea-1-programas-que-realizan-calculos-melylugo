@@ -10,7 +10,7 @@ def main():
     saldoTotal= x-n
     saldoTotal=round(saldoTotal,5)
 
-    print ("El saldo final de la cuenta es: ", saldoTotal)
+    print ("El saldo final de la cuenta es:",saldoTotal)
     pass
 
 if __name__ == '__main__':
