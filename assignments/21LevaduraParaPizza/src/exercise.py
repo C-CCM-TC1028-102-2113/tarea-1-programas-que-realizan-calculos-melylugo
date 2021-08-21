@@ -5,7 +5,7 @@ def main():
     levadura=harina*50/1000
     levadura=round(levadura,1)
 
-    print ("Necesitas estos gramos de levadura: ", levadura)
+    print ("Necesitas estos gramos de levadura:",levadura)
     pass
 
 if __name__ == '__main__':
