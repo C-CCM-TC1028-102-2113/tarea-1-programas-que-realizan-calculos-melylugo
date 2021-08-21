@@ -7,7 +7,7 @@ def main():
 
     x=(saldo)+(ingresos)-((egresos)+(cheques*13))
     n=0.075*x
-    saldoTotal= x-n
+    saldoTotal=x-n
     saldoTotal=round(saldoTotal,5)
   
     print ("El saldo final de la cuenta es:",saldoTotal)
